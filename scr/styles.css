@@ -1,0 +1,143 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    padding: 20px 60px;
+}
+
+.logo h1 {
+    color: white;
+}
+.logo img{
+    height: 65px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #0B6E4F;
+}
+
+.hero{
+    height:90vh;
+    background: linear-gradient(rgba(8,32,24,0.65), rgba(8,32,24,0.65)) url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.hero-text{
+    background:rgba(0,0,0,.45);
+    padding:50px;
+    border-radius:15px;
+    max-width: 800px;
+}
+
+.hero h2{
+    color: #D4AF37;
+    font-size:48px;
+    margin-bottom:60px;
+}
+
+.hero p{
+    color: white;
+    font-size:22px;
+    line-height: 1.7;
+    
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 30PX;
+    background:#D4AF37;
+    color:#111;
+    text-decoration:none;
+    padding:16px 40px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#094d38;
+}
+
+.featured {
+    padding: 60px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.featured h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.shoe-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.shoe-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.shoe-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shoe-card h3 {
+    margin: 20px 0 10px;
+}
+
+.shoe-card p {
+    margin-bottom: 20px;
+}
+
+.shoe-card button {
+    background: #111111;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shoe-card button:hover {
+    background: #0B6E4F;
+}
